@@ -1,9 +1,6 @@
 nav{
     width: 100%;
     height: 80px;
-    
-    
-    
 }
 
 .body{
@@ -21,8 +18,13 @@ nav{
 }
 
 li{
-    float: left;
+    display: inline-block;
     color: black;
+    padding-left: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    list-style: none;
 }
 
 header{
@@ -88,12 +90,6 @@ header{
     cursor: pointer;
 }
     
-.col-6{
-   
-
-
-    
-}
 
 .halfish{
     width: 440px;
@@ -354,20 +350,28 @@ footer{
     
 }
 
-
-
 .map{
     display: inline-block;
     
 }
 
-.mail{
+.main-mail{
     float: left;
     margin-top: 40px;
 }
-
-.mail p{
+.main-mail p{
     display: inline-block;
+    margin-left: 20px;
+}
+.main-cell{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.main-cell p{
+    display: inline-block;
+    margin-left: 20px;
 }
 
 form{
@@ -375,7 +379,8 @@ form{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 50px;
-    width: 500px;
+    width: 600px;
+    height: 500px;
 
 }
 
@@ -395,6 +400,8 @@ button{
     width: 90%;
     height: 40px;
     margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding-left: 15px;
     border-radius: 40px;
     border: none;
@@ -411,9 +418,6 @@ button{
     float: right;
 }
 
-.fav mail{
-    
-}
 
 .fave-arrow{
     float: right;
@@ -439,3 +443,21 @@ button{
 
 }
 
+.mappy{
+    background-color: #2b2b2b;
+    height: 200px;
+    width: 550px;
+    margin-top: 10px;
+}
+
+.cont{
+    margin-top: 96px;
+    width: 600px;
+    height: 500px;
+    background-color: #2b2b2b;
+}
+
+.cont h1{
+padding-top: 200px;
+}
+    

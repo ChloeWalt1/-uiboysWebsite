@@ -17,37 +17,42 @@
 
 <body style="background-color: grey">
     <nav>
-        <div class="logo">
-            <h1>STREAM</h1>
-        </div>
-        <div class="nav-con">
-            <ul>
-                <li>Recent Releases</li>
-                <li>Popular Albums</li>
-                <a href="/pages/playlists.html">
-                    <li class="active">My Playlist</li>
-                </a>
-                <a href="/pages/about.html">
-                    <li class="active"><b>About</b></li>
-                </a>
+        <a href="../index.html"><div class="logo"><img class="streamlogo" src="/assets/Logo 2/stream_logo_white.png"></div></a>
+        <div class="nav-con" style="display: inline-block;">
+            <ul style="display: inline-block;">
+                <a href="../index.html"><li>Recent Releases</li></a>
+                <a href="../index.html"><li>Popular Albums</li></a>
+                <a href="/pages/playlists.html"><li class="active"><strong>My Playlist</strong></li></a>
+                <a href="/pages/about.html"><li class="active">About</li></a>
             </ul>
+            <div class="searchbar" style="display: inline-block;">
+                <p>Search...</p>
+                <img class="searchicon" src="/assets/Icons 2/other/search_icon.svg">
+            </div>
         </div>
     </nav>
 
+    <div class="MyHead">
+    <h2>My Playlists</h2>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
                 <div class="col-box cont">
                     <h1> FAVOURITES</h1>
                     <h2>MIX</h2>
+                    <img class="strlogo" src="/assets/stream_small_logo_white.svg">
                 </div>
             </div>
             <div class="col-6 plpage">
                 <ul class="playlists">
-                    <li id="active">My Favourites</li>
+                    <li id="active"><strong>My Favourites</strong></li>
+                  
                     <li>Classic Mix</li>
                     <li>Suggestions Mix</li>
+                    <div class="boldline"></div>
                 </ul>
+                
 
                 <div class="desc">
                     <ul class="playlist-list">
@@ -66,13 +71,15 @@
                         <li>2:54</li>
                         <li>...</li>
                     </ul>
-                    <ul>
-                        <li>2</li>
+                    <div class="underline"></div>
+                    <ul><strong>
+                        <li> <img class="playing" src="/assets/Icons 2/media/currently_playing_icon.svg"></li>
                         <li>SONG TITLE <br> Artist Name</li>
                         <li>Album Name</li>
                         <li>2:54</li>
                         <li>...</li>
-                    </ul>
+                    </ul></strong>
+                    <div class="underline"></div>
                     <ul>
                         <li>3</li>
                         <li>SONG TITLE <br> Artist Name</li>
@@ -80,6 +87,7 @@
                         <li>2:54</li>
                         <li>...</li>
                     </ul>
+                    <div class="underline"></div>
                     <ul>
                         <li>4</li>
                         <li>SONG TITLE <br> Artist Name</li>
@@ -87,6 +95,7 @@
                         <li>2:54</li>
                         <li>...</li>
                     </ul>
+                    <div class="underline"></div>
                     <ul>
                         <li>5</li>
                         <li>SONG TITLE <br> Artist Name</li>
@@ -94,6 +103,7 @@
                         <li>2:54</li>
                         <li>...</li>
                     </ul>
+                    <div class="underline"></div>
                     <ul>
                         <li>6</li>
                         <li>SONG TITLE <br> Artist Name</li>
@@ -101,8 +111,40 @@
                         <li>2:54</li>
                         <li>...</li>
                     </ul>
+                    <div class="underline"></div>
+                    
                 </div>
 
             </div>
         </div>
     </div>
+
+    <div class="player-line">
+        <div class="line">
+            <div class="inner-line"></div>
+        </div>
+        <div class="marker"></div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="songthumb" style="display:inline-block;"></div>
+            <h3>SONG TITLE</h3>
+            <p>Artist</p>
+        </div>
+        <div class="col-4"> 
+            <div class="controls">
+            <img class="rewind" src="/assets/Icons 2/media/previous_media_icon.svg">
+            <img class="pause" src="/assets/Icons 2/media/pause_media_icon.svg">
+            <img class="forward" src="/assets/Icons 2/media/next_media_icon.svg">
+        
+            </div>
+        </div>
+        <div class="col-4">
+            <p style><strong>02:22</strong></p>
+            <img class="options" src="/assets/Icons 2/media/options_media_icon.svg">
+
+        </div>
+    </div>
+</div>
